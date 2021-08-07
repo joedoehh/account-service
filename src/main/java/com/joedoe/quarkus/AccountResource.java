@@ -57,6 +57,7 @@ public class AccountResource {
         return response;
     }
 
+
     @Provider
     public static class ErrorMapper implements ExceptionMapper<Exception> {
 
